@@ -1,0 +1,22 @@
+[MAPPING FILE]
+C:\Users\chait\AppData\Local\Temp\GNAT-TEMP-000005.TMP
+[TOOLCHAIN VERSION]
+ada
+GNAT 2021
+[MAIN BASE NAME]
+emergency
+[COMPILER PATH]
+c:\gnat\2021\bin\gcc.exe
+[COMPILER LEADING SWITCHES]
+-c
+-x
+ada
+-gnatA
+[MAIN DEPENDENCY FILE]
+C:\Users\chait\OneDrive\Desktop\Ada_Programming\Prep_Task_3\obj\emergency.ali
+[DEPENDENCY FILES]
+[BINDING OPTIONS]
+gnatbind_prefix=
+[PROJECT FILES]
+C:\Users\chait\OneDrive\Desktop\Ada_Programming\Prep_Task_3\my_project.gpr
+20231105220700 7a9a1739c013aefee8e29860f7de3aa0

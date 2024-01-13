@@ -1,0 +1,4 @@
+temperaturecontrol.adb:9:07: error: "Ball_Valve_V102" is undefined (more references follow)
+temperaturecontrol.adb:12:07: error: "Code_Outputs" is undefined (more references follow)
+temperaturecontrol.adb:13:07: error: "UpdateOutputs" is undefined (more references follow)
+temperaturecontrol.adb:39:07: error: "Heating_Tank_101" is undefined (more references follow)

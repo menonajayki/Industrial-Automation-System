@@ -1,0 +1,58 @@
+V "GNAT Lib v2021"
+A -O2
+A -gnatA
+A -g
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DELAY
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_RELATIVE_DELAY
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U emergency%b		emergency.adb		44a7a826 NE OO PK
+Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+U emergency%s		emergency.ads		3483534c EE NE OO PK
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-calend.ads		20210520051128 474d9720 ada.calendar%s
+D a-caldel.ads		20210520051128 9f20b83d ada.calendar.delays%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D emergency.ads		20231106222126 3483534c emergency%s
+D emergency.adb		20231106222126 7024fb6a emergency%b
+D system.ads		20210520051136 2ffa5114 system%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+G a e
+G c Z s b [panicswitch emergency 2 14 none]
+X 6 emergency.ads
+1K9*Emergency 12l5 12e14 7|1b14 42l5 42t14
+2U14*PanicSwitch 2=27 3=27 4=27 5=27 6=27 7=27 8=27 9=27 10=27 11=27 7|2b14
+. 41l8 41t19
+2b27 Create_Start{boolean} 7|2b27 31m10
+3b27 Start_Created{boolean} 7|3b27 32m10
+4b27 Running{boolean} 7|4b27 33m10
+5b27 PreviousState_Running{boolean} 7|5b27 34m10
+6b27 Panic_Switch_Hit{boolean} 7|6b27 14r10 39m10
+7b27 Ball_Valve_V102{boolean} 7|7b27 21m10
+8b27 Pump_P101{boolean} 7|8b27 23m10
+9b27 Pump_P101_Preset_D_A{boolean} 7|9b27 25m10
+10b27 Proportional_Valve_V106{boolean} 7|10b27 27m10
+11b27 Heating_Tank_101{boolean} 7|11b27 29m10
+X 7 emergency.adb
+12X7 panic 15r16 19r12
+
